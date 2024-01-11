@@ -201,9 +201,9 @@ renderIngredientsBoard();
 
 function renderPrice(){
   let totalPrice = 0;
-  for(key in state){
-    if(state[key]){
-      totalPrice+= ingredients[key];
+  for(i in state){
+    if(state[i]){
+      totalPrice+= ingredients[i];
     }
   }
   document.querySelector("body > footer > div.Rectangle3 > div > p.price-details").innerHTML = "INR " + totalPrice;
