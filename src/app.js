@@ -17,6 +17,7 @@ var ingredients = {
 //Current state of the ingredients in the burger
 var state = {
   Patty: true,
+  
   Cheese: true,
   Tomatoes: true,
   Onions: true,
